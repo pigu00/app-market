@@ -1,0 +1,78 @@
+/* common */
+#root {
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'montserrat', serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+  
+  /* hero block */
+  .heroBlock {
+    padding: 40px 0;
+    position: relative;
+    object-fit: fill;
+    
+  }
+  .carouselImg{
+    height: 30rem;
+  }
+  
+  .heroBlock:after {
+    content: '';
+    border-bottom: 1px solid #ddd;
+    position: absolute;
+    bottom: 0;
+    left: -999px;
+    right: -999px;
+  }
+  
+  .heroBlocks .holder {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 9px 15px;
+    margin: 0 0 25px;
+    display: flex;
+    align-items: center;
+    min-height: 118px;
+  }
+  
+  .heroBlocks .holder:last-child {
+    margin: 0;
+  }
+  
+  .heroBlocks .icon {
+    color: #27c4ff;
+    font-size: 30px;
+    margin: 0 20px 0 0;
+  }
+  
+  .heroBlocks h3 {
+    line-height: 1.4;
+  }
+  
+  .heroBlocks p {
+    margin: 0;
+  }
+  
+  .ant-carousel .slick-slide img {
+    width: 100%;
+  }
+  
+  
